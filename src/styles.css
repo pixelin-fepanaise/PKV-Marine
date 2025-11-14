@@ -147,7 +147,7 @@ nav {
   width: 100%;
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><rect fill="%2387CEEB" width="600" height="400"/><rect fill="%23FF6B35" x="100" y="150" width="400" height="150" rx="10"/></svg>');
+    url("assets/P1.png");
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -172,11 +172,12 @@ nav {
 }
 
 .products-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  justify-content: center; /* Centers items */
 }
 
 .product-card {
@@ -185,6 +186,7 @@ nav {
   padding: 2rem;
   color: #333;
   transition: transform 0.3s;
+  width: 260px; /* Fixed width for consistency */
 }
 
 .product-card:hover {
@@ -206,6 +208,13 @@ nav {
   margin-bottom: 1rem;
 }
 
+.product-image-1 {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, #ff6b35, #ff8555);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
 .product-image-2 {
   width: 100%;
   height: 200px;
@@ -213,15 +222,8 @@ nav {
   border-radius: 8px;
   margin-bottom: 1rem;
 }
-.product-image-3 {
-  width: 100%;
-  height: 200px;
-  background: linear-gradient(135deg, #ff6b35, #ff8555);
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
 
-.product-image-4 {
+.product-image-3 {
   width: 100%;
   height: 200px;
   background: linear-gradient(135deg, #ff6b35, #ff8555);
@@ -251,7 +253,7 @@ nav {
 .why-image {
   width: 100%;
   height: 400px;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><rect fill="%23654321" width="600" height="400"/><rect fill="%23FF6B35" x="50" y="280" width="150" height="80" rx="8"/></svg>');
+  background: url("assets/P2.png");
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -278,7 +280,7 @@ nav {
 .feature-icon {
   width: 50px;
   height: 50px;
-  background: #ff6b35;
+  background: #fde9e2;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -336,7 +338,7 @@ nav {
 .testimonial-avatar {
   width: 50px;
   height: 50px;
-  background: #ff6b35;
+  background: #fde9e2;
   border-radius: 50%;
 }
 
