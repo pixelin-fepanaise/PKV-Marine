@@ -191,7 +191,7 @@ const productsData = {
       "High-visibility color for easy spotting",
       "Suitable for wide range of body sizes",
       "SOLAS and MED approved",
-      "Whistle and reflective tape included",
+      // "Whistle and reflective tape included",
     ],
     compliance: [
       "MSC.47(66)-1996 Amendments",
@@ -278,7 +278,7 @@ const productsData = {
       "Flashing rate of 60 times/min",
       "Maximum outflow of 450 L/min",
       "Complete with plastic storage case",
-      "Full face mask for complete protection",
+      // "Full face mask for complete protection",
     ],
     compliance: [
       "SOLAS 1974 as amended",

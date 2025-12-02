@@ -151,16 +151,6 @@ function changeImage(thumbnail) {
   thumbnail.classList.add("active");
 }
 
-// Request Quote button handler
-function requestQuote() {
-  window.location.href = "index.html#contact";
-}
-
-// Contact Us button handler
-function contactUs() {
-  window.location.href = "index.html#contact";
-}
-
 // View Product - Navigate to product details with ID
 function viewProduct(productId) {
   window.location.href = `product-details.html?id=${productId}`;

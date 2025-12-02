@@ -213,7 +213,7 @@
   display: flex;
   gap: 15px;
   justify-content: center;
-  margin-bottom: 60px;
+  margin: 80px 0;
 }
 
 .btn-primary,

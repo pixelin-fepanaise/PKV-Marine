@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - PKV Marine</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html" class="logo">PKV Marine</a>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index.html#products">Our Products ▼</a></li>
+        <li>
+          <a href="contact.html">
+            <button class="contact-btn">Contact Us</button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Get in touch with us</h2>
+      <p class="contact-subtitle">
+        Have a request? Our team is ready to assist you anytime.
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>sales@pkvmarine.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Call Us</h4>
+              <p>+65 9791 1387</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Visit Us</h4>
+              <p>
+                213B BIDADARI PARK DRIVE, #07-601, <br />
+                Singapore 362213
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <!-- Hidden fields for FormSubmit -->
+          <input type="hidden" name="_cc" value="dstarpixel123@gmail.com" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New inquiry from PKV Marine Website"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name*" required />
+            <input type="email" name="email" placeholder="Email*" required />
+          </div>
+          <div class="form-row">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number*"
+              required
+            />
+            <input type="text" name="Company" placeholder="Company" />
+          </div>
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">Submit message</button>
+        </form>
+
+        <div
+          id="formMessage"
+          style="
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+          "
+        ></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-simple">
+      <div class="footer-simple-container">
+        <div class="footer-simple-logo">PKV Marine</div>
+
+        <div class="footer-nav">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#products">Our Products</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="footer-simple-bottom">
+        <p>2025 PKV Marine. All right reserved</p>
+        <div class="footer-simple-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
