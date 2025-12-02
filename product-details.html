@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details - PKV Marine</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/product-details.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html" class="logo">PKV Marine</a>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index.html#products">Our Products</a></li>
+        <li>
+          <a href="index.html#contact">
+            <button class="contact-btn">Contact Us</button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Product Detail Container -->
+    <div class="product-detail-container">
+      <!-- Breadcrumb -->
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> /
+        <a href="index.html#products">Products</a> / <span></span>
+      </div>
+
+      <!-- Product Detail Grid -->
+      <div class="product-detail-grid">
+        <!-- Product Images -->
+        <div class="product-images">
+          <img src="" alt="" class="main-image" id="mainImage" />
+          <div class="thumbnail-container">
+            <!-- Thumbnails will be loaded by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+          <h1></h1>
+
+          <div class="certification-badge"></div>
+
+          <div class="product-description">
+            <p></p>
+          </div>
+
+          <!-- Specifications -->
+          <div class="specifications">
+            <h3>Specifications</h3>
+            <ul class="spec-list">
+              <!-- Specifications will be loaded by JavaScript -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features and Compliance Grid -->
+      <div class="features-compliance-grid">
+        <!-- Features -->
+        <div class="features-section">
+          <h3>Key Features</h3>
+          <ul class="features-list">
+            <!-- Features will be loaded by JavaScript -->
+          </ul>
+        </div>
+
+        <!-- Compliance -->
+        <div class="compliance-section">
+          <h3>Compliance Standards</h3>
+          <ul class="compliance-list">
+            <!-- Compliance will be loaded by JavaScript -->
+          </ul>
+        </div>
+      </div>
+
+      <!-- Action Buttons - Centered below -->
+      <div class="action-buttons">
+        <button class="btn-primary" onclick="requestQuote()">
+          Request Quote
+        </button>
+        <!-- <button class="btn-secondary" onclick="contactUs()">Contact Us</button> -->
+      </div>
+    </div>
+
+    <!-- Related Products Section -->
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div class="products-grid">
+        <!-- Related products will be loaded by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-simple">
+      <div class="footer-simple-container">
+        <div class="footer-simple-logo">Logo</div>
+        <div class="footer-nav">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#products">Our Products</a>
+          <a href="index.html#contact">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-simple-bottom">
+        <p>© 2025 PKV Marine. All right reserved</p>
+        <div class="footer-simple-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/products-data.js"></script>
+    <script src="src/main.js"></script>
+    <script src="src/product-details.js"></script>
+  </body>
+</html>
